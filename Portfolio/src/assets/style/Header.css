@@ -1,0 +1,33 @@
+h1 {
+  border: 3px solid red;
+}
+
+menu {
+  justify-content: end;
+  border: 3px solid red;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: end;
+  
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* border: 3px solid red; */
+}
+
+li {
+  list-style: none;
+  color: black;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.nav {
+  margin: 10px;
+  color: white;
+}

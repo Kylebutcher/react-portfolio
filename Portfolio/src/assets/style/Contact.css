@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#fname {
+  width: 25%;
+}
+
+#email {
+  width: 25%;
+}
+
+#message {
+  width: 50%;
+}
+
+#submit {
+  width: 60px;
+}
