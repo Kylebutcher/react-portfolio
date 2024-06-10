@@ -1,4 +1,11 @@
-.style-button {
-  background-color: black;
+.style {
   color: black;
+}
+
+.front-end {
+  color: white;
+}
+
+li {
+  color: white;
 }

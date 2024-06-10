@@ -9,11 +9,11 @@ export default function Contact() {
     <div>
       <form>
         <label>First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Enter your first name"></input>
+        <input required type="text" id="fname" name="firstname" placeholder="Enter your first name"></input>
         <label>Email</label>
-        <input type="text" id="email" name="email" placeholder="Enter your email"></input>
+        <input required type="text" id="email" name="email" placeholder="Enter your email"></input>
         <label>Message</label>
-        <input type="text" id="message" name="message" placeholder="Enter your message"></input>
+        <input required type="text" id="message" name="message" placeholder="Enter your message"></input>
         <button id="submit">Send</button>
       </form>
     </div>

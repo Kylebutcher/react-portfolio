@@ -59,3 +59,9 @@ a {
   display: flex;
   justify-content: center;
 }
+
+.extra-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
