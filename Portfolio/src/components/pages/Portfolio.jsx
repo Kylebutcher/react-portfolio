@@ -1,22 +1,49 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
+import "../../assets/style/Portfolio.css";
 
 export default function Portfolio() {
 
+  // for future use my actual snapshots for my portfolio
+
   return (
     <div>
-      <div>
-        <a href="https://kylebutcher.github.io/semantic-html/"></a>
-        <img className="project-1" src="./assets/waterimg.jpg" alt="water looking background"></img>
+      <div className="first">
+        <a href="https://kylebutcher.github.io/semantic-html/" target="_blank">
+        <img className="project-1" src="/waterimg.jpg" alt="water looking background"></img>
+        <h3>Semantic HTML</h3>
+        </a>
       </div>
-      <div>
-        <a href="./index2.html"></a>
-        <img className="project-2" src="./assets/neon-color-background.jpg" alt="neon colored background"></img>
+      <div className="second">
+        <a href="https://kylebutcher.github.io/note-taking-app/">
+        <img className="project-2" src="/neon-color-background.jpg" alt="neon colored background"></img>
+        <h3>Note Taking App</h3>
+        </a>
       </div>
-      <div>
-        <a href="./index3.html"></a>
-        <img className="project3" src="./assets/third-image.jpg" alt="random img"></img>
+      <div className="third">
+        <a href="https://kylebutcher.github.io/passpour/">
+        <img className="project-3" src="/third-image.jpg" alt="random img"></img>
+        <h3>Passpour</h3>
+        </a>
+      </div>
+      <div className="fourth">
+        <a href="https://kylebutcher.github.io/weather-dashboard/">
+        <img className="project-4" src="/third-image.jpg" alt="random img"></img>
+        <h3>Weather App</h3>
+        </a>
+      </div>
+      <div className="fifth">
+        <a href="https://rvbouu.github.io/hoop-stats/">
+        <img className="project-5" src="/third-image.jpg" alt="random img"></img>
+        <h3>Hoop Stats</h3>
+        </a>
+      </div>
+      <div className="sixth">
+        <a href="https://kylebutcher.github.io/payroll-tracker/">
+        <img className="project-6" src="/third-image.jpg" alt="random img"></img>
+        <h3>Employee PayRoll Tracker</h3>
+        </a>
       </div>
     </div>
   )

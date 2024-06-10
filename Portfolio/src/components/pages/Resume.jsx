@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import resume from "../../assets/KyleButcher_Resume2021.pdf";
+import "../../assets/style/Resume.css";
 
 export default function Resume() {
 

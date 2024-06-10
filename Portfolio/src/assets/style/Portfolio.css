@@ -1,0 +1,61 @@
+.project-1 {
+  height: 200px;
+  width: 200px;
+}
+.project-2 {
+  height: 200px;
+  width: 200px;
+}
+.project-3 {
+  height: 200px;
+  width: 200px;
+}
+.project-4 {
+  height: 200px;
+  width: 200px;
+}
+.project-5 {
+  height: 200px;
+  width: 200px;
+}
+.project-6 {
+  height: 200px;
+  width: 200px;
+}
+
+
+/* .center-imgs {
+  display: flex;
+  justify-content: center;
+  
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+}
+.second {
+  display: flex;
+  justify-content: center;
+}
+.third {
+  display: flex;
+  justify-content: center;
+}
+.fourth {
+  display: flex;
+  justify-content: center;
+}
+.fifth {
+  display: flex;
+  justify-content: center;
+}
+.sixth {
+  display: flex;
+  justify-content: center;
+}

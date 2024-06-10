@@ -12,7 +12,9 @@ export default function Footer() {
       <div className="container2">
         <div>612-802-5778</div>
         <div>kylembutcher97@gmail.com</div>
-        <div>Github</div>
+        <div>
+          <a href="https://github.com/Kylebutcher">Github</a>
+        </div>
       </div>
     </footer>
   )
